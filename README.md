@@ -7,8 +7,12 @@ This software enables monitoring of assembly projects, work orders, and field op
 Based on the Alxarafe framework, WorkFrame provides a robust structure for managing employees, equipment, and field assignments.
 
 ![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-blueviolet?style=flat-square)
-![License](https://img.shields.io/badge/license-GPL--3.0--or--later-blue?style=flat-square)
+![CI](https://github.com/alxarafe/workframe/actions/workflows/ci.yml/badge.svg)
+![Tests](https://github.com/alxarafe/workframe/actions/workflows/tests.yml/badge.svg)
+[![Quality Report](https://img.shields.io/badge/quality-report-brightgreen?style=flat-square)](https://alxarafe.github.io/workframe/quality/)
 ![Static Analysis](https://img.shields.io/badge/static%20analysis-PHPStan-blue?style=flat-square)
+![License](https://img.shields.io/badge/license-GPL--3.0--or--later-blue?style=flat-square)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/alxarafe/workframe/issues?utf8=✓&q=is%3Aopen%20is%3Aissue)
 
 ## CORE FEATURES
 

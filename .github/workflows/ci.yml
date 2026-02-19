@@ -1,0 +1,49 @@
+# WorkFrame CI Workflow
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  standards:
+    name: Coding Standards
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: mbstring, xml, ctype, iconv, mysqli, pdo_mysql, zip
+          coverage: none
+
+      - name: Install Dependencies
+        run: composer update --no-interaction --no-progress --no-audit
+
+      - name: Check PHP Standards (PHPCS)
+        run: vendor/bin/phpcs --standard=phpcs.xml application
+
+  static-analysis:
+    name: Static Analysis
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: mbstring, xml, ctype, iconv, mysqli, pdo_mysql, zip
+          coverage: none
+
+      - name: Install Dependencies
+        run: composer update --no-interaction --no-progress --no-audit
+
+      - name: PHPStan Analysis
+        run: vendor/bin/phpstan analyze

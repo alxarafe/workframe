@@ -6,6 +6,7 @@
     <arg name="extensions" value="php"/>
     
     <file>application</file>
+    <file>Tests</file>
     
     <exclude-pattern>vendor/*</exclude-pattern>
     <exclude-pattern>system/*</exclude-pattern>

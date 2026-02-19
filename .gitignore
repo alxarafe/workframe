@@ -1,0 +1,29 @@
+# IDEs
+/.idea/
+/.vscode/
+
+# Dependencias
+/vendor/
+
+# Entorno y Configuración
+.env
+/config.php
+/.htaccess
+*.ini
+
+# Archivos temporales y Logs
+/writable/
+/application/cache/*
+/application/logs/*
+!/application/cache/index.html
+!/application/logs/index.html
+
+# Archivos específicos de desarrollo/debug
+/info.php
+/rsanjoseo.php
+/rsanjoseo_cloud.php
+
+# Otros
+# Se recomienda incluir composer.lock en aplicaciones finales, 
+# pero mantenemos la exclusión general si así se prefiere.
+*.lock

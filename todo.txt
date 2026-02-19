@@ -1,0 +1,60 @@
+Anotaciones sobre programa gestión Montable / WorkFrame
+
+A nivel general:
+
++ El botón GUARDAR en todos los sitios hacerla verde, que destaque más.
+
+- Posibilidad de eliminar expedientes, órdenes de trabajo, partes de trabajo,...
+siempre y cuando no estén vinculados por ejemplo: no se podría eliminar expedientes
+si ya tiene orden de trabajo...
+
++ Errores en el formato de fecha (lo ideal sería dd-mm-aaaa). Cuando se quiere
+ordenar por la columna fecha no lo ordena correctamente debería de hacerlo año,
+mes y día: ahora lo ordena por día, mes y año.
+
++ Errores en el formato de hora (24 horas). En la vista general de calendario de
+obras no trata correctamente las horas por ejemplo las 20:00 h lo considera 8:00 h.
+
+En las visiones generales:
+
++ Color alterno de las líneas. Ideal para identificar visualmente más rápidamente
+una y otra línea.
+
++ Añadir filtros rango de fechas o mes, semana y día...
+
+En Empleados:
+
++ Añadir el campo correo electrónico (sobre todo a jefes de equipo) para poder
+notificar.
+
++ Igual que existe la posibilidad de desactivar el empleado para que no aparezca
+(así se considera de baja permanente en la empresa), puede estar de baja médica,
+vacaciones o permiso en un intervalo de fechas, por lo que no estaría disponible
+para trabajar en X día.
+
+En Órdenes de trabajo:
+
+- Añadir Estados, por ejemplo APLAZADA, CADUCADA,...
+
++ Añadir Dirección de montaje, ya que tenemos población y provincia.
+
++ Al insertar alguna anotación (se abre otra pantalla) que se guarden los cambios
+antes.
+
++ Igual que se puede Insertar una anotación, añadir botón para añadir Partes de
+trabajo (guardando los cambios antes).
+
+? La asignación del Jefe de Equipo deberían de salir los empleados que son jefes
+de grupo.
+
++ Error al guardar ordenes de trabajo
+
+Borrando id_order = 21434031, id_worker = 46
+Borrando id_order = 21434031, id_worker = 47,...
+helpers/url_helper.php:564
+core/MY_Dbcontroller.php:233
+controllers/Ordenes.php:75:370
+
+En Parte de trabajo:
+
+? Debería de salir los jefes de equipo para poder seleccionar

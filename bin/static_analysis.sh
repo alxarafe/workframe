@@ -6,4 +6,4 @@ if [ -f .env ]; then
 fi
 
 echo "Ejecutando análisis estático en $PHP_CONTAINER..."
-docker exec -it $PHP_CONTAINER ./vendor/bin/phpstan analyse -c phpstan.neon
+docker exec -it $PHP_CONTAINER ./vendor/bin/phpstan analyse -c phpstan.neon --memory-limit 2G

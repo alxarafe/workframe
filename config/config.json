@@ -1,0 +1,23 @@
+{
+    "main": {
+        "path": "/var/www/html/public",
+        "url": "http://localhost:8085",
+        "theme": "default",
+        "language": "es_ES",
+        "timezone": "Europe/Madrid"
+    },
+    "db": {
+        "type": "mysql",
+        "host": "workframe_db",
+        "user": "root",
+        "pass": "root",
+        "name": "workframe_db",
+        "port": "",
+        "prefix": "wf_",
+        "charset": "utf8mb4",
+        "collation": "utf8mb4_unicode_ci"
+    },
+    "security": {
+        "debug": "1"
+    }
+}

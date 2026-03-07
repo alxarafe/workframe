@@ -1,0 +1,10 @@
+# 🏛️ Alxarafe Core Heritage
+# ASSISTANT: This project follows the core standards of Alxarafe Microframework.
+# READ FIRST: vendor/alxarafe/alxarafe/.antigravity-core-rules
+
+## 🎨 Proyecto: WorkFrame
+Este archivo describe las reglas específicas para WorkFrame que complementan las reglas base del Core.
+
+### 📝 Estructura de Trabajo
+- **Workflow Focus**: Este proyecto se centra en la gestión de flujos de trabajo corporativos.
+- **Componentes**: Uso intensivo de componentes de formulario para la entrada de datos de tareas y proyectos.

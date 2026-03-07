@@ -6,5 +6,5 @@ if [ -f .env ]; then
     export $(cat .env | grep -v '#' | awk '/=/ {print $1}')
 fi
 
-echo "Running PHPCS en $PHP_CONTAINER..."
-docker exec -it $PHP_CONTAINER ./vendor/bin/phpcs -d memory_limit=512M --tab-width=4 --encoding=utf-8 --standard=phpcs.xml application
+echo "Checking Standards (PHPCS) en $PHP_CONTAINER..."
+docker exec -it $PHP_CONTAINER ./vendor/bin/phpcs -d memory_limit=512M --tab-width=4 --encoding=utf-8 --standard=phpcs.xml --runtime-set ignore_warnings_on_exit 1

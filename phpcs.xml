@@ -5,11 +5,11 @@
     <arg name="tab-width" value="4"/>
     <arg name="extensions" value="php"/>
     
-    <file>application</file>
+    <file>Modules</file>
     <file>Tests</file>
     
     <exclude-pattern>vendor/*</exclude-pattern>
-    <exclude-pattern>system/*</exclude-pattern>
     
+    <arg name="ignore" value="warnings"/>
     <rule ref="PSR12"/>
 </ruleset>

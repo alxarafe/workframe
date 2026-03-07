@@ -7,4 +7,4 @@ if [ -f .env ]; then
 fi
 
 echo "Running PHPCBF en $PHP_CONTAINER..."
-docker exec -it $PHP_CONTAINER ./vendor/bin/phpcbf --tab-width=4 --encoding=utf-8 --standard=phpcs.xml application
+docker exec -it $PHP_CONTAINER ./vendor/bin/phpcbf --tab-width=4 --encoding=utf-8 --standard=phpcs.xml

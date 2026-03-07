@@ -1,0 +1,56 @@
+en: English
+dashboard: Dashboard
+show_from: "Show from"
+work_orders: "Work Orders"
+vehicles: Vehicles
+workers: Workers
+active_work_orders: "Active Work Orders"
+file: File
+name: Name
+customer: Customer
+start: Start
+end: End
+hour: Hour
+foreman: Foreman
+location: Location
+resources: Resources
+search_placeholder: "Search..."
+type: Type
+id: ID
+actions: Actions
+view: View
+no_results_found: "No results found for %query%."
+worker_report: "Worker Report"
+worker_report_description: "Hours worked, orders attended, travel time."
+customer_report: "Customer Report"
+customer_report_description: "Projects, work orders, and parts summary."
+generate: Generate
+all_workers: "All Workers"
+all_customers: "All Customers"
+date: Date
+order: Order
+morning: Morning
+afternoon: Afternoon
+travel: Travel
+allowances: Allowances
+project_file: "Project File"
+parts: Parts
+database_status: "Database Status"
+all_tables_up_to_date: "All WorkFrame tables are up to date."
+seed_warning_description: "This will populate the database with demonstration data."
+run_seed_data: "Run Seed Data"
+mail_not_configured: "Mail is not configured."
+configure_now: "Configure now"
+confirm_delete_email: "Are you sure you want to delete this email?"
+no_emails_found: "No emails found in the inbox."
+mail_configuration: "Mail Configuration"
+imap_host: "IMAP Host"
+username: Username
+password: Password
+use_ssl: "Use SSL"
+save_configuration: "Save Configuration"
+cancel: Cancel
+configure: Configure
+mail_index: Mail
+from: From
+subject: Subject

@@ -1,0 +1,56 @@
+es: Español
+dashboard: Cuadro de Mando
+show_from: "Mostrar desde"
+work_orders: "Órdenes de Trabajo"
+vehicles: Vehículos
+workers: Trabajadores
+active_work_orders: "Órdenes de Trabajo Activas"
+file: Expediente
+name: Nombre
+customer: Cliente
+start: Inicio
+end: Fin
+hour: Hora
+foreman: Capataz
+location: Localización
+resources: Recursos
+search_placeholder: "Buscar..."
+type: Tipo
+id: ID
+actions: Acciones
+view: Ver
+no_results_found: "No se encontraron resultados para %query%."
+worker_report: "Informe de Trabajadores"
+worker_report_description: "Horas trabajadas, órdenes atendidas, tiempos de desplazamiento."
+customer_report: "Informe de Clientes"
+customer_report_description: "Proyectos, órdenes de trabajo y resumen de partes."
+generate: Generar
+all_workers: "Todos los Trabajadores"
+all_customers: "Todos los Clientes"
+date: Fecha
+order: Orden
+morning: Mañana
+afternoon: Tarde
+travel: Desplazamiento
+allowances: Dietas
+project_file: "Expediente"
+parts: Partes
+database_status: "Estado de la Base de Datos"
+all_tables_up_to_date: "Todas las tablas de WorkFrame están actualizadas."
+seed_warning_description: "Esto poblará la base de datos con datos de demostración."
+run_seed_data: "Ejecutar Semillas de Datos"
+mail_not_configured: "El correo no está configurado."
+configure_now: "Configurar ahora"
+confirm_delete_email: "¿Estás seguro de que quieres eliminar este correo?"
+no_emails_found: "No se han encontrado correos en la bandeja de entrada."
+mail_configuration: "Configuración de Correo"
+imap_host: "Servidor IMAP"
+username: Usuario
+password: Contraseña
+use_ssl: "Usar SSL"
+save_configuration: "Guardar Configuración"
+cancel: Cancelar
+configure: Configurar
+mail_index: Correo
+from: De
+subject: Asunto

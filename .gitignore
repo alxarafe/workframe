@@ -12,11 +12,16 @@
 *.ini
 
 # Archivos temporales y Logs
-/writable/
 /application/cache/*
 /application/logs/*
+/var/
+/writable/
 !/application/cache/index.html
 !/application/logs/index.html
+
+# Cache de tests
+.phpunit.cache/
+.phpstan.cache/
 
 # Archivos específicos de desarrollo/debug
 /info.php
